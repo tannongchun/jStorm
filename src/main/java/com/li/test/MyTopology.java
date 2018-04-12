@@ -82,7 +82,8 @@ public class MyTopology {
         if(maxSpoutPending > 0){
             config.setMaxSpoutPending(maxSpoutPending);
         }
-        System.out.println(" topic = " + topic + " workerNumSpout = " + workerNumSpout +" workerNumBolt = " + workerNumBolt + " maxSpoutPending = " + maxSpoutPending);
+        System.out.println(" topic = " + topic + " workerNumSpout = " + workerNumSpout +
+                " workerNumBolt = " + workerNumBolt + " maxSpoutPending = " + maxSpoutPending);
 
         if(args.length>0){
             try {
